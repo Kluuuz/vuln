@@ -32,7 +32,8 @@ h2{
     display:flex;
     justify-content: center;
 }
-.searchbar{
+
+.searchplace{
     display: flex;
     justify-content:center;
 }
@@ -42,6 +43,17 @@ h2{
     border-radius:10px;
     border:solid transparent;
     padding-left:20px;
+}
+#searchsubmit{
+    background-color:transparent;
+    border:0px;
+}
+.searcharea{
+    display:inline;
+}
+img{
+    width:100%;
+    height:100%;
 }
 
 
@@ -77,3 +89,14 @@ h2{
 background-color: #6E503460;
 transition: 0.5s;
 }
+
+.error {
+color: red;
+background-color: #ffdddd;
+border: 1px solid red;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 15px;
+text-align: center;
+}
+
