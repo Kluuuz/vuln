@@ -4,6 +4,7 @@
     </title>
     <head>
         <link rel = "stylesheet" href="css/style.css">
+        
     </head>
     <body>
         <nav>
@@ -14,8 +15,15 @@
             </ul>
         </nav>
         <h2>Harvey's Store</h2>
-        <div class="searchbar">
-        <input type="text" id="search" name="search" placeholder="Search....">
+        <div class="searchplace">
+        <form method ="POST" name="search" id="search">
+        
+        <div class="searcharea">
+        <input type="text" id="search" name="search" placeholder="Search...."> 
+        <button type="submit" id="searchsubmit" value="searchsubmit"><img src="assets/search.png"></button>
+        </form>
+        </div>
+        <div id ="searchtext"></div>
         </div>
     </body>
 </html>
