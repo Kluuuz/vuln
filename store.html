@@ -15,15 +15,17 @@
             </ul>
         </nav>
         <h2>Harvey's Store</h2>
-        <div class="searchplace">
-        <form method ="POST" name="search" id="search">
-        
-        <div class="searcharea">
+
+        <div class ="searcharea">
+        <form method ="GET" name="searchform" id="searchform">
+    
         <input type="text" id="search" name="search" placeholder="Search...."> 
-        <button type="submit" id="searchsubmit" value="searchsubmit"><img src="assets/search.png"></button>
+        <button type="submit" id="searchsubmit" value="searchsubmit"><img class="searchlogo" src="assets/search.png"></button>
         </form>
         </div>
+         
         <div id ="searchtext"></div>
-        </div>
+
+<script src="js/store.js"></script>
     </body>
 </html>
