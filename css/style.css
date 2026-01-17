@@ -60,6 +60,11 @@ h2{
     align-items: center;
     gap: 10px;           
 }
+#searchtext{
+    text-align: center; /*para ma align sa center ang text*/
+    font-size: 30px;
+    font-weight: bold;
+}
 
 .adminpage{
     margin:30px auto;
